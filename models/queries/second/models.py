@@ -4,6 +4,7 @@ from django.db import models
 
 
 class Programmer(models.Model):
+	i love changes
     name = models.CharField(max_length=20)
     age = models.IntegerField()
     company = models.ForeignKey(Company, on_delete=models.CASCADE)
